@@ -1,0 +1,36 @@
+{
+  "name": "angularjs-1-skeleton",
+  "version": "1.0.0",
+  "description": "This is AngularJS source code of personal website of Yuvraj Patil.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "http-server -o -p 8888"
+  },
+  "keywords": [
+    "todo",
+    "angularjs",
+    "angularjs1",
+    "javascript",
+    "yuvraj",
+    "patil",
+    "yuvraj patil",
+    "yuvraj_patil",
+    "yuvraj-patil"
+  ],
+  "author": "Yuvraj Patil",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-local-storage": "^0.5.0",
+    "angular-route": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "angular-ui-bootstrap": "^2.2.0",
+    "angular-ui-router": "^0.3.2",
+    "bootstrap": "^3.3.7" 
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}

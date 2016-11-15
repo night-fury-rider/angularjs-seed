@@ -1,0 +1,15 @@
+<div class="homeContainer container">
+    <header>
+        <h1>Hi. I'm <strong> {{ author }}</strong>.</h1>
+    </header>
+    <p>I am a programmer who loves coding and enjoys learning new technologies. I have 4 of experience in JavaScript Development.
+    </p>
+    <br>
+
+    <button type="button" class="btn btn-default" ng-click="showFavoriteMovies()">Show favorite movies list</button>
+	<br><br><br>
+
+    <ul class="list-group" ng-if="movies.length > 0">
+        <li class="list-group-item" ng-repeat="movie in movies">{{ movie.name }}</li>
+    </ul>
+</div>
