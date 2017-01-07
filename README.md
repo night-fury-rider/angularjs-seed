@@ -29,7 +29,7 @@ Simple AngularJS 1 skeleton project. It includes following:
     $   npm start
     ```
     
- - Verify the deployment by navigating to your server address in your preferred browser.
+- Verify the deployment by navigating to your server address in your preferred browser.
     ```sh
     http://localhost:8888
-    `
+    ```    
