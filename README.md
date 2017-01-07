@@ -13,8 +13,6 @@ Simple AngularJS 1 skeleton project. It includes following:
 # Prerequisite
 
 - NodeJS ( version 5+ )
-- NPM ( version 3+ )
-
 
 # Usage
 
