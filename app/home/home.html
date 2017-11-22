@@ -10,6 +10,8 @@
 	<br><br><br>
 
     <ul class="list-group" ng-if="movies.length > 0">
-        <li class="list-group-item" ng-repeat="movie in movies">{{ movie.name }}</li>
+        <li class="list-group-item" ng-repeat="movie in movies">
+            <uv-movie title="{{movie.name}}"></uv-movie>
+        </li> 
     </ul>
 </div>
