@@ -1,5 +1,6 @@
 (function () {
   'use strict';
+
   uvApp.directive('uvMovie', function() {
     return {
       restrict: 'E',    //  E for Element
