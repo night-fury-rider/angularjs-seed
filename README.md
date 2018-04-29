@@ -5,6 +5,7 @@ Simple AngularJS 1 skeleton project. It includes following:
 - State based routing.
 - Controllers
 - Services
+- Directives
 - Web service integration
 - Multiple parallel view (ui-view)
 - Node modules basic setup
