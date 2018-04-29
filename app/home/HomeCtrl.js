@@ -16,12 +16,11 @@
              */
             $scope.movies = []; 
 
-            
+
             /**
             * @description Function to show favorite movies of Yuvraj Patil
             */
             $scope.showFavoriteMovies = function () {  
-                
 
                   HomeService.getFavoriteMovies().then(function (data) {
                      $scope.movies = data; 
